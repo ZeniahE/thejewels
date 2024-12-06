@@ -36,6 +36,9 @@ body{
 .nav-bar li{
     display: inline;
 }
+.nav-bar a{
+    color: #fff;
+}
 
 /* INDEX/HOME */
 #header{
@@ -67,8 +70,108 @@ body{
     padding: 10px;
     color: #fff;
 }
+#meet-jade{
+    display: none;
+}
+#meet-jade-2{
+    display: none;
+}
+#meet-saph{
+    display: none;
+}
+#meet-saph-2{
+    display: none;
+}
+#meet-amyth{
+    display: none;
+}
+#meet-amyth-2{
+    display: none;
+}
+/* ORIGIN */
+#mx-header{
+    text-shadow: 6px 6px 5px #700e10 , -6px -6px 5px #00a86b , 6px -6px 5px #0f52ba , -6px 6px 5px #9966cc ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+#origins-p{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+/* TOUR */
+.tour-dates{
+    border: 1px solid #fff ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tour-dates th{
+    width: 160px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff ;
+    padding: 5px;
+}
+.tour-dates td{
+    border: 1px solid #fff ;
+    font-size: 16px;
+    color: #fff;
+    padding: 3px;
+}
+/* CONTACT */
+input{
+    background-color: white;
+    width: 800px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: rgb(97, 97, 97);
+    margin-bottom: 20px;
+    border-color: rgb(97, 97, 97);
+    border-width: 2px;
+}
+textarea{
+    background-color: white;
+    width: 800px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: rgb(97, 97, 97);
+    margin-bottom: 25px;
+}
+input:focus-within{
+    outline: none;
+    border-width: 5px;
+}
+textarea:focus-within{
+    outline: none;
+    border-color: rgb(97, 97, 97);
+    border-width: 3px;
+}
+.form-btn{
+    background-color: ;
+    border-radius: 20px;
+    border-color: rgb(97, 97, 97);
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+.form-btn:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
 
 /* SHOP */
+.card-img-top{
+    width: 22rem;
+    height: 22rem;
+}
 #shop-header{
     color: #fff;
 }
@@ -143,7 +246,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
     color: black;
 }
-/* CHANGE IMG ON HOVER */
+/* CHANGE IMG ON HOVER 
 #second-img{
     display: none;
 }
@@ -154,6 +257,7 @@ body{
     display: block;
     border-radius: 5px;
 }
+*/
 /* HOVER ANIMATION CLASS: hvr-bob */
 @keyframes hvr-bob {
     0% {
