@@ -53,8 +53,6 @@ document.addEventListener('DOMContentLoaded', function() {
             mjade2.style.display = 'none';
             mruby.style.display = 'none'
             mruby2.style.display = 'none'
-            
-            
         } else {
             meetTheMembers.style.backgroundColor = ''; // Reset to default
             header.style.textShadow = '';
@@ -63,6 +61,10 @@ document.addEventListener('DOMContentLoaded', function() {
             mruby2.style.display = 'block'
             mamyth.style.display = 'none';
             mamyth2.style.display = 'none';
+            mjade.style.display = 'none';
+            mjade2.style.display = 'none';
+            msaph.style.display = 'none';
+            msaph2.style.display = 'none';
         }
     });
 });
