@@ -33,14 +33,14 @@ document.addEventListener('DOMContentLoaded', function() {
             meetTheMembers.style.backgroundColor = '#0f52ba';
             header.style.textShadow = bluetxtshadow;
             facts.forEach(element =>{ element.style.backgroundColor = '#0f52ba'});
+            msaph.style.display = 'block';
+            msaph2.style.display = 'block';
             mjade.style.display = 'none';
             mjade2.style.display = 'none';
             mruby.style.display = 'none'
             mruby2.style.display = 'none'
             mamyth.style.display = 'none';
             mamyth2.style.display = 'none';
-            msaph.style.display = 'block';
-            msaph2.style.display = 'block';
         } else if (event.relatedTarget.id === 'purple') {
             meetTheMembers.style.backgroundColor = '#9966cc';
             header.style.textShadow = purpletxtshadow;
@@ -61,6 +61,8 @@ document.addEventListener('DOMContentLoaded', function() {
             facts.forEach(element =>{ element.style.backgroundColor = ''});
             mruby.style.display = 'block'
             mruby2.style.display = 'block'
+            mamyth.style.display = 'none';
+            mamyth2.style.display = 'none';
         }
     });
 });
